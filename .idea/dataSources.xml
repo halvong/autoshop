@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="autoshop db" uuid="5d164b14-8301-44e7-b735-ab7a9676af72">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:32770/shop</jdbc-url>
+      <time-zone>America/Los_Angeles</time-zone>
+    </data-source>
+  </component>
+</project>
