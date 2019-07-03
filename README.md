@@ -1,11 +1,19 @@
 Django2, Packtpub
-7/02/2019, Tues
+7/04/2019, Thurs
+
+pg234
+
+#URL
+http://127.0.0.1:8000/admin/
+
+#superuser
+tom:tom
 
 docker-compose exec database psql -U tom -h database
 docker-compose exec web python manage.py makemigrations shop
 docker-compose exec web python manage.py sqlmigrate shop 0001
 docker-compose exec web python manage.py migrate
-
+docker-compose logs -f web 
 
 #new steps
 docker build -t recipe_app_api .
