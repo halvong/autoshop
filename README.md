@@ -1,10 +1,13 @@
 Django2, Packtpub
-7/04/2019, Thurs
+7/10/2019, Wed
 
-pg234
+pg238
 
 #URL
 http://127.0.0.1:8000/admin/
+
+#docker
+sudo systemctl start docker
 
 #superuser
 tom:tom
