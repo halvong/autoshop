@@ -1,14 +1,21 @@
 Django2, Packtpub
-7/04/2019, Thurs
+7/12/2019, Fri
 
-pg234
+pg249
 
 #URL
 http://127.0.0.1:8000/admin/
 
 #superuser
-tom:tom
+    tom:tom
+#celery
+    guest:guest
+    
+#systemctl    
+sudo systemctl start docker
+sudo systemctl start rabbit-server
 
+#docker commands
 docker-compose exec database psql -U tom -h database
 docker-compose exec web python manage.py makemigrations shop
 docker-compose exec web python manage.py sqlmigrate shop 0001
@@ -20,7 +27,6 @@ docker build -t recipe_app_api .
 
 #commands
 docker images  -- shows all docker images
-
 
 
 #old steps
