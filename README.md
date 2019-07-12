@@ -1,22 +1,13 @@
 Django2, Packtpub
-7/12/2019, Fri
+7/04/2019, Thurs
 
-pg249
+pg234
 
 #URL
 http://127.0.0.1:8000/admin/
 
 #superuser
- tom:tom
-
- celery
- guest:guest
- 
-#systemctl
-sudo systemctl start docker
-sudo systemctl status rabbitmq-server
-
-#docker commands
+tom:tom
 
 docker-compose exec database psql -U tom -h database
 docker-compose exec web python manage.py makemigrations shop
