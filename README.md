@@ -1,10 +1,14 @@
 Django2, Packtpub
-7/12/2019, Fri
+7/15/2019, Mon
 
-pg249
+pg257
+Registering customer orders
 
 #URL
 http://127.0.0.1:8000/admin/
+
+#Path
+cd /home/hal/Documents/softwares/pro-pycharm/workspace/django/autoshop
 
 #superuser
     tom:tom

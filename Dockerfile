@@ -14,6 +14,5 @@ WORKDIR /app
 COPY . /app
 
 #creates user for running appl.
-RUN adduser --disabled-login tom
-USER tom
+RUN useradd -ms /bin/bash tom
 #CMD python manage.py runserver 0.0.0.0:8000
