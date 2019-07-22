@@ -1,5 +1,5 @@
 Django2, Packtpub
-7/15/2019, Mon
+7/22/2019, Mon
 
 pg257
 Registering customer orders
