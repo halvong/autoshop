@@ -1,8 +1,9 @@
 Django2, Packtpub
-7/22/2019, Mon
+7/29/2019, Mon
 
-pg260
-creating customer order
+pg269
+Orders created
+
 
 #URL
 http://127.0.0.1:8000/admin/
