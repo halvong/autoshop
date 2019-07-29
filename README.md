@@ -1,10 +1,15 @@
 Django2, Packtpub
-7/12/2019, Fri
+7/29/2019, Mon
 
-pg249
+pg269
+Orders created
+
 
 #URL
 http://127.0.0.1:8000/admin/
+
+#Path
+cd /home/hal/Documents/softwares/pro-pycharm/workspace/django/autoshop
 
 #superuser
     tom:tom
@@ -46,3 +51,6 @@ docker images  -- shows all docker images
 12. docker-compose exec web python manage.py test && flake8 
 13. docker-compose run web sh -c "python manage.py test && flake8"
 14. docker-compose up -d --force-recreate web   --recreate container web
+15. docker-compose exec web python manage.py startapp orders --pg259
+16. docker-compose exec web python manage.py makemigrations 
+17. docker-compose exec web python manage.py migrate 
